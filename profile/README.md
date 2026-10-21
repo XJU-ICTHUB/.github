@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/XJU-ICTHUB/.github/main/assets/fluid-hero.webp" width="100%" alt="XJU-ICTHUB — 开源项目、算法实践与技术分享" />
+  <img src="https://raw.githubusercontent.com/XJU-ICTHUB/.github/main/assets/flowing-ribbons-v3.webp" width="100%" alt="XJU-ICTHUB — 开源项目、算法实践与技术分享" />
 </p>
 
 <p align="center">
