@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-labelledby="title desc">
+  <title id="title">Huawei Algorithm Challenge</title><desc id="desc">Solutions and source code. An ice-blue glass navigation bar with cyan, violet and pink light trails.</desc>
+
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#faffff"/><stop offset=".52" stop-color="#f4faff"/><stop offset="1" stop-color="#eef3ff"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#ffffff" stop-opacity=".94"/><stop offset="1" stop-color="#edf4ff" stop-opacity=".7"/></linearGradient>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#23c9ee"/><stop offset=".52" stop-color="#a18bef"/><stop offset="1" stop-color="#ef9bdc"/></linearGradient>
+    <linearGradient id="aqua" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#80eaf6"/><stop offset=".55" stop-color="#23c9ee"/><stop offset="1" stop-color="#4c89e8"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c5bdff"/><stop offset=".6" stop-color="#a18bef"/><stop offset="1" stop-color="#6f83dd"/></linearGradient>
+    <linearGradient id="rose" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd2f1"/><stop offset=".55" stop-color="#ef9bdc"/><stop offset="1" stop-color="#b99aea"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#83dcea"/><stop offset="1" stop-color="#c3baef"/></linearGradient>
+    <filter id="soft-shadow" x="-35%" y="-40%" width="170%" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="5"/><feOffset dy="6"/><feColorMatrix values="0 0 0 0 .12 0 0 0 0 .30 0 0 0 0 .57 0 0 0 .15 0"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="17"/></filter>
+  </defs>
+  <rect x=".75" y=".75" width="1198.5" height="158.5" rx="20" fill="url(#surface)" stroke="#d0e1f4" stroke-width="1.5"/>
+  <ellipse cx="1040" cy="75" rx="131" ry="53" fill="#b2eaf9" opacity=".45" filter="url(#glow)"/>
+  <ellipse cx="864" cy="119" rx="167" ry="30" fill="#decafa" opacity=".4" filter="url(#glow)"/>
+  <rect x="15" y="14" width="1170" height="131" rx="15" fill="#ffffff" fill-opacity=".26" stroke="#ffffff" stroke-opacity=".95"/>
+  <g id="index-flow" fill="none" stroke="url(#spectrum)" stroke-linecap="round">
+    <path d="M611 130C728 3 813 24 912 90S1086 141 1174 40" stroke-width="15" opacity=".08"/>
+    <path d="M611 130C728 3 813 24 912 90S1086 141 1174 40" stroke-width="2.2" opacity=".64"/>
+    <path d="M637 141C748 20 817 18 921 81S1094 126 1164 23" stroke-width="1.2" opacity=".42"/>
+    <path d="M654 148C763 39 830 16 934 75S1100 113 1143 12" stroke-width="1" opacity=".3"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="32" y="34" fill="#3887b1" font-size="11" font-weight="700" letter-spacing="2.6">THE COLLECTION</text>
+    <text x="31" y="82" fill="#064a94" font-size="36" font-weight="700" letter-spacing="-.6">Huawei Algorithm Challenge</text>
+    <text x="33" y="118" fill="#54769d" font-size="20">Solutions &amp; source code</text>
+  </g>
+  <rect x="32" y="138" width="52" height="3" rx="1.5" fill="url(#spectrum)"/>
+  <g id="index-nodes" stroke="#ffffff" stroke-width="1.5">
+    <rect x="788" y="25" width="28" height="28" rx="7" transform="rotate(-13 802 39)" fill="url(#glass)"/>
+    <rect x="830" y="106" width="19" height="19" rx="5" transform="rotate(17 839 115)" fill="url(#violet)" opacity=".65"/>
+    <circle cx="952" cy="32" r="5" fill="url(#aqua)"/>
+  </g>
+  <g id="index-arrow" transform="translate(1072 77)" filter="url(#soft-shadow)" stroke-linejoin="round">
+    <path d="M-35-13H5V-28L43 3 5 34V19H-35Z" fill="#b1c9f0" opacity=".5" transform="translate(0 4)"/>
+    <path d="M-35-17H5V-32L43 0 5 32V17H-35Z" fill="url(#spectrum)" stroke="#ffffff" stroke-width="2"/>
+    <path d="M-29-11H10V-20L32 0" fill="none" stroke="#ffffff" stroke-width="1.4" opacity=".65"/>
+  </g>
+  <g fill="#5ba8c8" opacity=".45"><circle cx="1160" cy="129" r="2"/><circle cx="1149" cy="129" r="2"/><circle cx="1138" cy="129" r="2"/></g>
+</svg>
