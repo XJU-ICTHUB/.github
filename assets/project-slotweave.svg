@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="title desc">
+  <title id="title">SlotWeave</title>
+  <desc id="desc">Circular slot balancing, shown as alternating service groups and vacant ring slots.</desc>
+  <defs>
+    <linearGradient id="halo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60e7ff" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#91f0bd" stop-opacity="0.01"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="759" height="299" rx="20" fill="#081322" stroke="#1d3349"/>
+  <circle cx="615" cy="150" r="112" fill="url(#halo)"/>
+  <circle cx="615" cy="150" r="101" fill="none" stroke="#183045"/>
+  <g fill="none" stroke="#1d3349" stroke-linecap="round">
+    <path d="M499 58h12m-6-6v12M710 235h12m-6-6v12"/>
+    <path d="M531 246h18m146-192h17"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="42" y="57" fill="#60e7ff" font-size="11" font-weight="700" letter-spacing="2.6">CHALLENGE 039</text>
+    <rect x="42" y="84" width="34" height="3" rx="1.5" fill="#91f0bd"/>
+    <text x="42" y="143" fill="#f6faff" font-size="45" font-weight="700" letter-spacing="-1.2">SlotWeave</text>
+    <text x="43" y="181" fill="#9aafc4" font-size="20">Circular slot balancing</text>
+  </g>
+  <path d="M43 245h365" stroke="#1d3349"/>
+  <circle cx="43" cy="265" r="2.5" fill="#60e7ff"/>
+  <circle cx="55" cy="265" r="2.5" fill="#91f0bd"/>
+  <circle cx="67" cy="265" r="2.5" fill="#345068"/>
+  <g transform="translate(615 150)">
+    <circle r="74" fill="none" stroke="#2a465c" stroke-width="1.5"/>
+    <circle r="48" fill="none" stroke="#254155" stroke-dasharray="3 7"/>
+    <path d="M0-71 61.49 35.5-61.49 35.5Z" fill="#60e7ff" fill-opacity="0.035" stroke="#60e7ff" stroke-opacity="0.24"/>
+    <path d="M61.49 -35.5 L0 71 L-61.49 -35.5 Z" fill="#91f0bd" fill-opacity="0.035" stroke="#91f0bd" stroke-opacity="0.24"/>
+    <g stroke="#081322" stroke-width="3">
+      <rect x="-9" y="-84" width="18" height="25" rx="4" fill="#60e7ff"/>
+      <rect x="-9" y="-84" width="18" height="25" rx="4" fill="#34536b" transform="rotate(30)"/>
+      <rect x="-9" y="-84" width="18" height="25" rx="4" fill="#91f0bd" transform="rotate(60)"/>
+      <rect x="-9" y="-84" width="18" height="25" rx="4" fill="#34536b" transform="rotate(90)"/>
+      <rect x="-9" y="-84" width="18" height="25" rx="4" fill="#60e7ff" transform="rotate(120)"/>
+      <rect x="-9" y="-84" width="18" height="25" rx="4" fill="#34536b" transform="rotate(150)"/>
+      <rect x="-9" y="-84" width="18" height="25" rx="4" fill="#91f0bd" transform="rotate(180)"/>
+      <rect x="-9" y="-84" width="18" height="25" rx="4" fill="#34536b" transform="rotate(210)"/>
+      <rect x="-9" y="-84" width="18" height="25" rx="4" fill="#60e7ff" transform="rotate(240)"/>
+      <rect x="-9" y="-84" width="18" height="25" rx="4" fill="#34536b" transform="rotate(270)"/>
+      <rect x="-9" y="-84" width="18" height="25" rx="4" fill="#91f0bd" transform="rotate(300)"/>
+      <rect x="-9" y="-84" width="18" height="25" rx="4" fill="#34536b" transform="rotate(330)"/>
+    </g>
+    <circle r="14" fill="#10293a" stroke="#41677e" stroke-width="1.5"/>
+    <circle r="4" fill="#60e7ff"/>
+  </g>
+</svg>
